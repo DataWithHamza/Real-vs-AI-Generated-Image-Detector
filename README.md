@@ -1,7 +1,6 @@
 # 🤖 Real vs AI-Generated Image Detector
-🧠 A Deep Learning-based web application powered by a Convolutional Neural Network (CNN) trained on the CIFAKE dataset to classify images as Real or AI-Generated with 91.82% accuracy. Built using TensorFlow and Streamlit, and deployed live on Hugging Face Spaces. 🚀
 
-A web application that detects whether an uploaded image is **Real (Authentic)** or **AI-Generated** (created by generative AI models like Midjourney, DALL-E, or Stable Diffusion). 
+A Deep Learning-based web application that detects whether an uploaded image is **Real (Authentic)** or **AI-Generated** (created by generative AI models like Midjourney, DALL-E, or Stable Diffusion). 
 
 The project uses a Convolutional Neural Network (CNN) model trained on the **CIFAKE dataset**, achieving a high validation accuracy. It is integrated with a user-friendly **Streamlit** web interface and deployed on **Hugging Face Spaces**.
 
@@ -9,7 +8,7 @@ The project uses a Convolutional Neural Network (CNN) model trained on the **CIF
 
 ## 🚀 Live Demo
 You can try the live web application here:
-👉 **[https://huggingface.co/spaces/hamza-3120/real-vs-ai-detector]**
+👉 **[Hugging Face Space Live App](https://huggingface.co/spaces/hamza-3120/real-vs-ai-detector)**
 
 ---
 
@@ -39,3 +38,35 @@ The CNN model was trained over 10 epochs on the CIFAKE dataset and achieved the 
 │   └── real_vs_ai_model.keras     # Trained TensorFlow/Keras model file
 ├── requirements.txt               # Dependencies list
 └── README.md                      # Project documentation
+
+💻 Technologies Used
+
+Frontend: Streamlit 🎈
+
+Deep Learning Framework: TensorFlow / Keras 🧠
+
+Image Processing: Pillow (PIL) 🖼️
+
+Numerical Operations: NumPy 🔢
+
+Deployment Platform: Hugging Face Spaces / Docker 🐳
+
+🔧 Installation & Local Setup
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+Bash
+git clone [https://github.com/DataWithHamza/Real-vs-AI-Image-Detector.git](https://github.com/DataWithHamza/Real-vs-AI-Image-Detector.git)
+cd Real-vs-AI-Image-Detector
+Install dependencies:
+
+Bash
+pip install -r requirements.txt
+Run the Streamlit app:
+
+Bash
+streamlit run src/app.py
+
+👥 Author
+Hamza (@DataWithHamza)
